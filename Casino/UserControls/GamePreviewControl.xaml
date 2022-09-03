@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Casino.UserControls.GamePreviewControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Casino.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="202">
+    <Grid>
+        <Image x:Name="image" Margin="0,0,0,0" Stretch="Fill" Source="/Casino;component/Assets/SixBizz.png"/>
+        <TextBlock x:Name="textBlockTitle" Margin="0,0,0,40" Text="Title" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="36" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,34 @@
+Eingang:
+	Button 1				Pin 13				
+	Button 2				Pin 15
+	Button 3				Pin 16
+	Button 4				Pin 18
+	Button 5				Pin 26
+	RFID-Reader
+		SDA 				Pin 24
+		SCK 				Pin 23
+		MOSI				Pin 19
+		MISO				Pin 21
+		GND					Pin 6
+		RST					Pin 22
+		3.3v				Pin 1
+	An-Aus Schalter			Pin	11
+	Button LED 1			LAN
+	Button LED 2			LAN
+	Button LED 3			LAN
+	Button LED 4			LAN
+	Button LED 5			LAN
+
+Ausgänge:
+	WOL Computer an/aus		LAN
+	Send RFID-ID to PC		LAN
+	Button LED 1			Pin 29
+	Button LED 2			Pin 31
+	Button LED 3			Pin 33
+	Button LED 4			Pin 35
+	Button LED 5			Pin 37
+	Button 1 to PC			LAN
+	Button 2 to PC			LAN
+	Button 3 to PC			LAN
+	Button 4 to PC			LAN
+	Button 5 to PC			LAN
